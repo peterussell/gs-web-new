@@ -1,12 +1,10 @@
 import React from 'react';
 
-import Button from 'react-bootstrap/button';
+import NavBar from './NavBar/NavBar.js';
 
 const App = () => {
     return (
-        <div>
-            Welcome to the new GroundSchool NZ
-        </div>
+        <NavBar />
     );
 };
 
