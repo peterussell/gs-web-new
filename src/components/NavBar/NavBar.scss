@@ -1,6 +1,14 @@
 @import 'styles/_colours.scss';
 
-.navBar {
+.nav-bar {
     background-color: $dark-blue;
-    color: white;
+    color: #fff;
 }
+
+.site-title {
+    font-size: 1.3rem;
+}
+
+.nav-link { color: #fff; }
+.nav-link:hover { color: #ddd; }
+.nav-item:hover { background-color: #0b2b44; }
