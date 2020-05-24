@@ -1,0 +1,23 @@
+.hero-background {
+  background-image: url('../../assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+
+.intro {
+  &__title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    padding-bottom: 6px;
+  }
+
+  &__description {
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 4px;
+    line-height: 1.4em;
+  }
+}
